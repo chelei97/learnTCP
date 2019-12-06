@@ -1,11 +1,11 @@
 package ziface
 
-//define a server interface
-type IServer interface {
-	//启动服务器
+//定义服务器接口
+type IServer interface{
+	//启动服务器方法
 	Start()
-	//停止服务器
+	//停止服务器方法
 	Stop()
-	//运行服务器
+	//开启业务服务方法
 	Serve()
 }

@@ -1,6 +1,6 @@
 package main
 
-import "learnZinx/src/znet"
+import "TCPlearning/src/znet"
 
 //基于Zinx框架来开发的服务器端应用程序
 
